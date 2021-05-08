@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+  <title>Dashboard in Bootstrap</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+   <link rel="stylesheet" href="bootstrap/css/mdb.css">
+   <link rel="stylesheet" href="bootstrap/css/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="ui.css">
+   <script src="bootstrap/js/jquery.js"></script>
+   <script src="bootstrap/js/popper.js"></script>
+   <script src="bootstrap/js/boostrap.js"></script>
+    <script src="bootstrap/js/mdb.js"></script>
+	<body>
+	
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+	<div class="container">
+	 <a href="UI_Dashboard.html" class="navbar-brand text-warning">
+	  <i class="fa fa-snowflake"></i>UI Dashboard
+	 </a>
+	 <button class="navbar-toggler" data-toggle="collapse" data-target="#ui-navbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+	 
+	 <div class="collapse navbar-collapse" id="ui-navbar">
+	 <ul class="navbar-nav">
+	 <li class="nav-item">
+	 <a class="nav-link" href="UI_Dashboard.html">
+	 <i class="fa fa-chart-bar"></i> Dashboard</a>
+	 </li>
+	 
+	 <li class="nav-item">
+	 <a class="nav-link" href="task.html">
+	 <i class="fa fa-list text-muted"></i> Tasks</a>
+	 </li>
+	 
+	 <li class="nav-item">
+	 <a class="nav-link" href="categories.html">
+	 <i class="fa fa-sitemap text-muted"></i> Categories</a>
+	 </li>
+	 
+	 <li class="nav-item">
+	 <a class="nav-link" href="employees.html">
+	 <i class="fa fa-users text-muted"></i> Employees</a>
+	 </li>
+	 
+	 
+	 </ul>
+	 
+	 
+	 <ul class="navbar-nav ml-auto">
+	 <li class="nav-item dropdown">
+	 <a class="nav-link" href="#" data-toggle="dropdown">
+	 <i class="fas fa-sign-in-alt"></i>Rutuparn</a>
+	 <div class="dropdown-menu p-2">
+	 <a href="profile.html" class="dropdown-item">
+	 <i class="fa fa-user-circle"></i> Profile</a>
+	 </a>
+	 <a href="settings.html" class="dropdown-item">
+	 <i class="fa fa-cogs"></i> Settings</a>
+	 </a>
+	 </div>
+	 </li>
+	 
+	 <li class="nav-item">
+	 <a class="nav-link" href="login.html">
+	 <i class="fas fa-sign-out-alt"></i></i>Logout</a>
+	 </li> 
+	 </ul>
+	  </div>
+		</div>
+	</nav>
+	
+<section class="p-3 bg-primary text-white p-2">
+
+ <div class="container">
+ <div class="row animated slideInLeft">
+ <h1>
+  <i class="fa fa-list"></i> Tasks
+ </h1>
+ </div>
+</div>
+</section>
+
+<section class="p-3">
+  <div class="container">
+    <div class="row">
+	 <div class="col-md-6">
+	 </div>
+	 <div class="col-md-6 animated slideInRight">
+	 <form class="form-inline">
+	 <div class="form-group">
+	 <input size="30" type="search" class="form-control" placeholder="Task Name">
+	 </div>
+	 <div>
+	 <input type="submit" value="Search" class="btn btn-primary">
+	 </div>
+	 </form>
+	 </div>
+	 </div>
+  </div>
+</section> 
+ 
+	
+
+
+	
+	
+	
+
+<section class="p-3">
+<div class="container">
+<div class="row">
+<div class="col-md-11">
+<div class="card animated rotateInUpRight">
+<div class="card-header bg-secondary text-white">
+<h3>Current Tasks</h3>
+</div>
+<div class="card-body bg-light">
+<table class="table table-hover text-center">
+<thead class="bg-dark text-white">
+ <tr>
+ <th>S.NO</th>
+ <th>NAME</th>
+ <th>EMAIL</th>
+ <th>TASK</th>
+ <th>LEVEL</th>
+ <th>CATEGORY</th>
+ <th>DETAILS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Amit</td>
+<td>yadava@gmail.com</td>
+<td>Automation</td>
+<td>Easy</td>
+<td>Development</td>
+<td>
+  <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Swapnil</td>
+<td>swapnil786@gmail.com</td>
+<td>Development</td>
+<td>Easy</td>
+<td>Development</td>
+<td>
+  <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr><tr>
+<td>3</td>
+<td>Shubham</td>
+<td>shubh98@gmail.com</td>
+<td>Application Dev</td>
+<td>Medium</td>
+<td>Development</td>
+<td>
+  <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr><tr>
+<td>4</td>
+<td>Sufiyan</td>
+<td>sayyedsuffiyan@gmail.com</td>
+<td>Testing</td>
+<td>Easy</td>
+<td>Development</td>
+<td>
+  <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr><tr>
+<td>5</td>
+<td>Saurabh</td>
+<td>schavan@gmail.com</td>
+<td>.Net</td>
+<td>Hard</td>
+<td>Development</td>
+<td>
+  <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr><tr>
+<td>6</td>
+<td>Maulik</td>
+<td>davevm@gmail.com</td>
+<td>Machine learning</td>
+<td>Difficult</td>
+<td>Development</td>
+<td>
+  <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr><tr>
+<td>7</td>
+<td>Sumer</td>
+<td>spatel@gmail.com</td>
+<td>Web-Dev</td>
+<td>Easy</td>
+<td>Development</td>
+<td>
+  <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr><tr>
+<td>8</td>
+<td>Mandar</td>
+<td>mvhate97@gmail.com</td>
+<td>Robotics</td>
+<td>Easy</td>
+<td>Development</td>
+<td>
+  <a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+ </div>
+</section>
+
+	<footer class="p-3 bg-dark text-white text-center">
+	<div class="container">
+	 <div class="row">
+	  <div class="col">
+	   <h3>Copyrights @ 2021;</h3>
+	    <h5>All Rights Reserved</h5>
+		<h6>Developed & Designed By <a href="https://github.com/rutu21-web">Rutuparn Awaghad</a></h6>
+	</div>
+	</div>
+	</div>
+	</footer>
+	
+	</body>
+	</html>
